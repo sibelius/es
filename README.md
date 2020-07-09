@@ -1,22 +1,9 @@
-# UI boilerplate
+# sibelius-es: Mi blog in espanhol
 
-Basic UI boilerplate to practice CSS
+Este es mi blog en español
 
-- material ui
-- styled-components
-- styled-system (similar to tailwind but for css in js)
-- rebass
-
-## How to start desiging?
+## ¿Cómo correr localmente?
 
 ```sh
 yarn start
 ```
-
-## How to test responsive in many screens?
-
-Use [Responsively App](https://github.com/manojVivek/responsively-app)
-
-## How to convert SVG files to React Components?
-
-Use [Transform Tools](https://transform.tools/)

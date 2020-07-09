@@ -7,10 +7,18 @@ import {
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
 import { StylesProvider } from '@material-ui/styles';
 import App from './App';
+import media from 'styled-media-query';
 
 const theme = createMuiTheme();
 
-const GlobalStyle = createGlobalStyle``;
+const GlobalStyle = createGlobalStyle`
+  body {
+    margin: 0 auto;
+    max-width: 50em;
+    ${media.lessThan('small')`
+      margin: 0 20px;
+    `}
+`;
 
 const Root = () => {
   return (
